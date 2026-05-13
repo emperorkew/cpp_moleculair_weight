@@ -1,7 +1,8 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/remco/Documents/projects/cpp/moleculair_weight/build/cmake_install.cmake"
+		"/home/remco/Documents/projects/cpp/moleculair_weight/build/cmake_install.cmake",
+		"/home/remco/Documents/projects/cpp/moleculair_weight/build/_deps/json-build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

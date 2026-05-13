@@ -1,3 +1,5 @@
 /home/remco/Documents/projects/cpp/moleculair_weight/build/CMakeFiles/my_app.dir
 /home/remco/Documents/projects/cpp/moleculair_weight/build/CMakeFiles/edit_cache.dir
 /home/remco/Documents/projects/cpp/moleculair_weight/build/CMakeFiles/rebuild_cache.dir
+/home/remco/Documents/projects/cpp/moleculair_weight/build/_deps/json-build/CMakeFiles/edit_cache.dir
+/home/remco/Documents/projects/cpp/moleculair_weight/build/_deps/json-build/CMakeFiles/rebuild_cache.dir

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/remco/Documents/projects/cpp/moleculair_weight/include
+CXX_INCLUDES = -I/home/remco/Documents/projects/cpp/moleculair_weight/include -I/home/remco/Documents/projects/cpp/moleculair_weight/build/_deps/json-src/include
 
 CXX_FLAGS = -std=gnu++17
 

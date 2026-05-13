@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/remco/Documents/projects/cpp/moleculair_weight/src/main.cpp" "CMakeFiles/my_app.dir/src/main.cpp.o" "gcc" "CMakeFiles/my_app.dir/src/main.cpp.o.d"
+  "/home/remco/Documents/projects/cpp/moleculair_weight/src/periodic_table.cpp" "CMakeFiles/my_app.dir/src/periodic_table.cpp.o" "gcc" "CMakeFiles/my_app.dir/src/periodic_table.cpp.o.d"
   "" "my_app" "gcc" "CMakeFiles/my_app.dir/link.d"
   )
 

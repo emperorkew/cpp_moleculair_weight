@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/my_app.dir/link.d"
   "CMakeFiles/my_app.dir/src/main.cpp.o"
   "CMakeFiles/my_app.dir/src/main.cpp.o.d"
+  "CMakeFiles/my_app.dir/src/periodic_table.cpp.o"
+  "CMakeFiles/my_app.dir/src/periodic_table.cpp.o.d"
   "my_app"
   "my_app.pdb"
 )

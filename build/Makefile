@@ -153,6 +153,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_app.dir/build.make CMakeFiles/my_app.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/periodic_table.o: src/periodic_table.cpp.o
+.PHONY : src/periodic_table.o
+
+# target to build an object file
+src/periodic_table.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_app.dir/build.make CMakeFiles/my_app.dir/src/periodic_table.cpp.o
+.PHONY : src/periodic_table.cpp.o
+
+src/periodic_table.i: src/periodic_table.cpp.i
+.PHONY : src/periodic_table.i
+
+# target to preprocess a source file
+src/periodic_table.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_app.dir/build.make CMakeFiles/my_app.dir/src/periodic_table.cpp.i
+.PHONY : src/periodic_table.cpp.i
+
+src/periodic_table.s: src/periodic_table.cpp.s
+.PHONY : src/periodic_table.s
+
+# target to generate assembly for a file
+src/periodic_table.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_app.dir/build.make CMakeFiles/my_app.dir/src/periodic_table.cpp.s
+.PHONY : src/periodic_table.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +189,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/periodic_table.o"
+	@echo "... src/periodic_table.i"
+	@echo "... src/periodic_table.s"
 .PHONY : help
 
 
