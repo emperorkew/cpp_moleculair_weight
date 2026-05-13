@@ -1,6 +1,6 @@
 # Molecular Weight Calculator
 
-A C++ command-line application for calculating molecular weights of chemical compounds.
+A small side project to learn C++ — a command-line tool that calculates molecular weights of chemical compounds using periodic table data.
 
 ## Prerequisites
 
@@ -21,16 +21,36 @@ make
 ./build/my_app
 ```
 
+## Testing
+
+```bash
+cd build
+ctest
+```
+
 ## Project Structure
 
 ```
 .
 ├── CMakeLists.txt
-├── include/          # Header files
+├── data/
+│   └── periodic_table.json   # Element data (symbols, atomic masses, etc.)
+├── include/
+│   └── periodic_table.h      # PeriodicTable class definition
 ├── src/
-│   └── main.cpp      # Application entry point
-└── build/            # Build output (generated)
+│   ├── main.cpp              # Application entry point
+│   └── periodic_table.cpp    # PeriodicTable implementation
+├── tests/
+│   └── test_periodic_table.cpp
+└── build/                    # Build output (generated)
 ```
+
+## Dependencies
+
+Fetched automatically via CMake:
+
+- [nlohmann/json](https://github.com/nlohmann/json) — JSON parsing
+- [Google Test](https://github.com/google/googletest) — Unit testing
 
 ## License
 
