@@ -615,8 +615,11 @@ my_app: /usr/lib/Scrt1.o \
   /usr/lib/libc_nonshared.a \
   /usr/lib/libm.so.6 \
   /usr/lib/libmvec.so.1 \
-  CMakeFiles/my_app.dir/src/main.cpp.o
+  CMakeFiles/my_app.dir/src/main.cpp.o \
+  CMakeFiles/my_app.dir/src/periodic_table.cpp.o
 
+
+CMakeFiles/my_app.dir/src/periodic_table.cpp.o:
 
 CMakeFiles/my_app.dir/src/main.cpp.o:
 

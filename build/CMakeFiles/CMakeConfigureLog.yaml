@@ -1889,3 +1889,1425 @@ events:
         - "/usr/pkg"
         - "/opt"
 ...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
+      - "build/_deps/googletest-src/CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "C compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cc"
+      - "gcc"
+      - "cl"
+      - "bcc"
+      - "xlc"
+      - "icx"
+      - "clang"
+    candidate_directories:
+      - "/usr/bin/"
+    found: "/usr/bin/cc"
+    search_context:
+      ENV{PATH}:
+        - "/home/remco/develop/flutter/bin"
+        - "/home/remco/miniconda3/bin"
+        - "/home/remco/miniconda3/condabin"
+        - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/"
+        - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared"
+        - "/home/remco/.local/share/mise/installs/go/1.25.6/bin"
+        - "/home/remco/.local/share/mise/installs/java/25.0.1/bin"
+        - "/home/remco/.local/share/mise/installs/node/25.2.1/bin"
+        - "/home/remco/.local/share/mise/installs/python/3.14.2/bin"
+        - "/home/remco/.local/bin"
+        - "/opt/cuda/bin"
+        - "/home/remco/.local/share/omarchy/bin"
+        - "/home/remco/.local/share/mise/shims"
+        - "/home/remco/.local/share/omarchy/bin"
+        - "/home/remco/.cargo/bin"
+        - "/home/remco/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/cuda/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/remco/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/remco/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/remco/.local/bin"
+        - "/home/remco/.local/share/../bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "build/_deps/googletest-src/CMakeLists.txt:6 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/share/cmake/Modules/"
+    found: "/usr/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/remco/develop/flutter/bin"
+        - "/home/remco/miniconda3/bin"
+        - "/home/remco/miniconda3/condabin"
+        - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/"
+        - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared"
+        - "/home/remco/.local/share/mise/installs/go/1.25.6/bin"
+        - "/home/remco/.local/share/mise/installs/java/25.0.1/bin"
+        - "/home/remco/.local/share/mise/installs/node/25.2.1/bin"
+        - "/home/remco/.local/share/mise/installs/python/3.14.2/bin"
+        - "/home/remco/.local/bin"
+        - "/opt/cuda/bin"
+        - "/home/remco/.local/share/omarchy/bin"
+        - "/home/remco/.local/share/mise/shims"
+        - "/home/remco/.local/share/omarchy/bin"
+        - "/home/remco/.cargo/bin"
+        - "/home/remco/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/cuda/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/remco/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/remco/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/remco/.local/bin"
+        - "/home/remco/.local/share/../bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "build/_deps/googletest-src/CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/remco/Documents/projects/cpp/moleculair_weight/build/CMakeFiles/4.3.2/CompilerIdC/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "build/_deps/googletest-src/CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-16.1"
+      - "gcc-ar-16"
+      - "gcc-ar16"
+      - "gcc-ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/remco/develop/flutter/bin/"
+      - "/home/remco/miniconda3/bin/"
+      - "/home/remco/miniconda3/condabin/"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared/"
+      - "/home/remco/.local/share/mise/installs/go/1.25.6/bin/"
+      - "/home/remco/.local/share/mise/installs/java/25.0.1/bin/"
+      - "/home/remco/.local/share/mise/installs/node/25.2.1/bin/"
+      - "/home/remco/.local/share/mise/installs/python/3.14.2/bin/"
+      - "/home/remco/.local/bin/"
+      - "/opt/cuda/bin/"
+      - "/home/remco/.local/share/omarchy/bin/"
+      - "/home/remco/.local/share/mise/shims/"
+      - "/home/remco/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/home/remco/.local/share/JetBrains/Toolbox/scripts/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/usr/bin/gcc-ar-16.1"
+      - "/home/remco/develop/flutter/bin/gcc-ar-16.1"
+      - "/home/remco/miniconda3/bin/gcc-ar-16.1"
+      - "/home/remco/miniconda3/condabin/gcc-ar-16.1"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/gcc-ar-16.1"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared/gcc-ar-16.1"
+      - "/home/remco/.local/share/mise/installs/go/1.25.6/bin/gcc-ar-16.1"
+      - "/home/remco/.local/share/mise/installs/java/25.0.1/bin/gcc-ar-16.1"
+      - "/home/remco/.local/share/mise/installs/node/25.2.1/bin/gcc-ar-16.1"
+      - "/home/remco/.local/share/mise/installs/python/3.14.2/bin/gcc-ar-16.1"
+      - "/home/remco/.local/bin/gcc-ar-16.1"
+      - "/opt/cuda/bin/gcc-ar-16.1"
+      - "/home/remco/.local/share/omarchy/bin/gcc-ar-16.1"
+      - "/home/remco/.local/share/mise/shims/gcc-ar-16.1"
+      - "/home/remco/.cargo/bin/gcc-ar-16.1"
+      - "/usr/local/sbin/gcc-ar-16.1"
+      - "/usr/local/bin/gcc-ar-16.1"
+      - "/usr/lib/jvm/default/bin/gcc-ar-16.1"
+      - "/usr/bin/site_perl/gcc-ar-16.1"
+      - "/usr/bin/vendor_perl/gcc-ar-16.1"
+      - "/usr/bin/core_perl/gcc-ar-16.1"
+      - "/home/remco/.local/share/JetBrains/Toolbox/scripts/gcc-ar-16.1"
+      - "/usr/local/bin/gcc-ar-16.1"
+      - "/usr/local/sbin/gcc-ar-16.1"
+      - "/usr/local/gcc-ar-16.1"
+      - "/usr/bin/gcc-ar-16.1"
+      - "/usr/sbin/gcc-ar-16.1"
+      - "/usr/gcc-ar-16.1"
+      - "/bin/gcc-ar-16.1"
+      - "/sbin/gcc-ar-16.1"
+      - "/usr/X11R6/bin/gcc-ar-16.1"
+      - "/usr/X11R6/sbin/gcc-ar-16.1"
+      - "/usr/X11R6/gcc-ar-16.1"
+      - "/usr/pkg/bin/gcc-ar-16.1"
+      - "/usr/pkg/sbin/gcc-ar-16.1"
+      - "/usr/pkg/gcc-ar-16.1"
+      - "/opt/bin/gcc-ar-16.1"
+      - "/opt/sbin/gcc-ar-16.1"
+      - "/opt/gcc-ar-16.1"
+      - "/usr/bin/gcc-ar-16"
+      - "/home/remco/develop/flutter/bin/gcc-ar-16"
+      - "/home/remco/miniconda3/bin/gcc-ar-16"
+      - "/home/remco/miniconda3/condabin/gcc-ar-16"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/gcc-ar-16"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared/gcc-ar-16"
+      - "/home/remco/.local/share/mise/installs/go/1.25.6/bin/gcc-ar-16"
+      - "/home/remco/.local/share/mise/installs/java/25.0.1/bin/gcc-ar-16"
+      - "/home/remco/.local/share/mise/installs/node/25.2.1/bin/gcc-ar-16"
+      - "/home/remco/.local/share/mise/installs/python/3.14.2/bin/gcc-ar-16"
+      - "/home/remco/.local/bin/gcc-ar-16"
+      - "/opt/cuda/bin/gcc-ar-16"
+      - "/home/remco/.local/share/omarchy/bin/gcc-ar-16"
+      - "/home/remco/.local/share/mise/shims/gcc-ar-16"
+      - "/home/remco/.cargo/bin/gcc-ar-16"
+      - "/usr/local/sbin/gcc-ar-16"
+      - "/usr/local/bin/gcc-ar-16"
+      - "/usr/lib/jvm/default/bin/gcc-ar-16"
+      - "/usr/bin/site_perl/gcc-ar-16"
+      - "/usr/bin/vendor_perl/gcc-ar-16"
+      - "/usr/bin/core_perl/gcc-ar-16"
+      - "/home/remco/.local/share/JetBrains/Toolbox/scripts/gcc-ar-16"
+      - "/usr/local/bin/gcc-ar-16"
+      - "/usr/local/sbin/gcc-ar-16"
+      - "/usr/local/gcc-ar-16"
+      - "/usr/bin/gcc-ar-16"
+      - "/usr/sbin/gcc-ar-16"
+      - "/usr/gcc-ar-16"
+      - "/bin/gcc-ar-16"
+      - "/sbin/gcc-ar-16"
+      - "/usr/X11R6/bin/gcc-ar-16"
+      - "/usr/X11R6/sbin/gcc-ar-16"
+      - "/usr/X11R6/gcc-ar-16"
+      - "/usr/pkg/bin/gcc-ar-16"
+      - "/usr/pkg/sbin/gcc-ar-16"
+      - "/usr/pkg/gcc-ar-16"
+      - "/opt/bin/gcc-ar-16"
+      - "/opt/sbin/gcc-ar-16"
+      - "/opt/gcc-ar-16"
+      - "/usr/bin/gcc-ar16"
+      - "/home/remco/develop/flutter/bin/gcc-ar16"
+      - "/home/remco/miniconda3/bin/gcc-ar16"
+      - "/home/remco/miniconda3/condabin/gcc-ar16"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/gcc-ar16"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared/gcc-ar16"
+      - "/home/remco/.local/share/mise/installs/go/1.25.6/bin/gcc-ar16"
+      - "/home/remco/.local/share/mise/installs/java/25.0.1/bin/gcc-ar16"
+      - "/home/remco/.local/share/mise/installs/node/25.2.1/bin/gcc-ar16"
+      - "/home/remco/.local/share/mise/installs/python/3.14.2/bin/gcc-ar16"
+      - "/home/remco/.local/bin/gcc-ar16"
+      - "/opt/cuda/bin/gcc-ar16"
+      - "/home/remco/.local/share/omarchy/bin/gcc-ar16"
+      - "/home/remco/.local/share/mise/shims/gcc-ar16"
+      - "/home/remco/.cargo/bin/gcc-ar16"
+      - "/usr/local/sbin/gcc-ar16"
+      - "/usr/local/bin/gcc-ar16"
+      - "/usr/lib/jvm/default/bin/gcc-ar16"
+      - "/usr/bin/site_perl/gcc-ar16"
+      - "/usr/bin/vendor_perl/gcc-ar16"
+      - "/usr/bin/core_perl/gcc-ar16"
+      - "/home/remco/.local/share/JetBrains/Toolbox/scripts/gcc-ar16"
+      - "/usr/local/bin/gcc-ar16"
+      - "/usr/local/sbin/gcc-ar16"
+      - "/usr/local/gcc-ar16"
+      - "/usr/bin/gcc-ar16"
+      - "/usr/sbin/gcc-ar16"
+      - "/usr/gcc-ar16"
+      - "/bin/gcc-ar16"
+      - "/sbin/gcc-ar16"
+      - "/usr/X11R6/bin/gcc-ar16"
+      - "/usr/X11R6/sbin/gcc-ar16"
+      - "/usr/X11R6/gcc-ar16"
+      - "/usr/pkg/bin/gcc-ar16"
+      - "/usr/pkg/sbin/gcc-ar16"
+      - "/usr/pkg/gcc-ar16"
+      - "/opt/bin/gcc-ar16"
+      - "/opt/sbin/gcc-ar16"
+      - "/opt/gcc-ar16"
+    found: "/usr/bin/gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/remco/develop/flutter/bin"
+        - "/home/remco/miniconda3/bin"
+        - "/home/remco/miniconda3/condabin"
+        - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/"
+        - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared"
+        - "/home/remco/.local/share/mise/installs/go/1.25.6/bin"
+        - "/home/remco/.local/share/mise/installs/java/25.0.1/bin"
+        - "/home/remco/.local/share/mise/installs/node/25.2.1/bin"
+        - "/home/remco/.local/share/mise/installs/python/3.14.2/bin"
+        - "/home/remco/.local/bin"
+        - "/opt/cuda/bin"
+        - "/home/remco/.local/share/omarchy/bin"
+        - "/home/remco/.local/share/mise/shims"
+        - "/home/remco/.local/share/omarchy/bin"
+        - "/home/remco/.cargo/bin"
+        - "/home/remco/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/cuda/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/remco/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/remco/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/remco/.local/bin"
+        - "/home/remco/.local/share/../bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "build/_deps/googletest-src/CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-16.1"
+      - "gcc-ranlib-16"
+      - "gcc-ranlib16"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/remco/develop/flutter/bin/"
+      - "/home/remco/miniconda3/bin/"
+      - "/home/remco/miniconda3/condabin/"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared/"
+      - "/home/remco/.local/share/mise/installs/go/1.25.6/bin/"
+      - "/home/remco/.local/share/mise/installs/java/25.0.1/bin/"
+      - "/home/remco/.local/share/mise/installs/node/25.2.1/bin/"
+      - "/home/remco/.local/share/mise/installs/python/3.14.2/bin/"
+      - "/home/remco/.local/bin/"
+      - "/opt/cuda/bin/"
+      - "/home/remco/.local/share/omarchy/bin/"
+      - "/home/remco/.local/share/mise/shims/"
+      - "/home/remco/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/home/remco/.local/share/JetBrains/Toolbox/scripts/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/usr/bin/gcc-ranlib-16.1"
+      - "/home/remco/develop/flutter/bin/gcc-ranlib-16.1"
+      - "/home/remco/miniconda3/bin/gcc-ranlib-16.1"
+      - "/home/remco/miniconda3/condabin/gcc-ranlib-16.1"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/gcc-ranlib-16.1"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared/gcc-ranlib-16.1"
+      - "/home/remco/.local/share/mise/installs/go/1.25.6/bin/gcc-ranlib-16.1"
+      - "/home/remco/.local/share/mise/installs/java/25.0.1/bin/gcc-ranlib-16.1"
+      - "/home/remco/.local/share/mise/installs/node/25.2.1/bin/gcc-ranlib-16.1"
+      - "/home/remco/.local/share/mise/installs/python/3.14.2/bin/gcc-ranlib-16.1"
+      - "/home/remco/.local/bin/gcc-ranlib-16.1"
+      - "/opt/cuda/bin/gcc-ranlib-16.1"
+      - "/home/remco/.local/share/omarchy/bin/gcc-ranlib-16.1"
+      - "/home/remco/.local/share/mise/shims/gcc-ranlib-16.1"
+      - "/home/remco/.cargo/bin/gcc-ranlib-16.1"
+      - "/usr/local/sbin/gcc-ranlib-16.1"
+      - "/usr/local/bin/gcc-ranlib-16.1"
+      - "/usr/lib/jvm/default/bin/gcc-ranlib-16.1"
+      - "/usr/bin/site_perl/gcc-ranlib-16.1"
+      - "/usr/bin/vendor_perl/gcc-ranlib-16.1"
+      - "/usr/bin/core_perl/gcc-ranlib-16.1"
+      - "/home/remco/.local/share/JetBrains/Toolbox/scripts/gcc-ranlib-16.1"
+      - "/usr/local/bin/gcc-ranlib-16.1"
+      - "/usr/local/sbin/gcc-ranlib-16.1"
+      - "/usr/local/gcc-ranlib-16.1"
+      - "/usr/bin/gcc-ranlib-16.1"
+      - "/usr/sbin/gcc-ranlib-16.1"
+      - "/usr/gcc-ranlib-16.1"
+      - "/bin/gcc-ranlib-16.1"
+      - "/sbin/gcc-ranlib-16.1"
+      - "/usr/X11R6/bin/gcc-ranlib-16.1"
+      - "/usr/X11R6/sbin/gcc-ranlib-16.1"
+      - "/usr/X11R6/gcc-ranlib-16.1"
+      - "/usr/pkg/bin/gcc-ranlib-16.1"
+      - "/usr/pkg/sbin/gcc-ranlib-16.1"
+      - "/usr/pkg/gcc-ranlib-16.1"
+      - "/opt/bin/gcc-ranlib-16.1"
+      - "/opt/sbin/gcc-ranlib-16.1"
+      - "/opt/gcc-ranlib-16.1"
+      - "/usr/bin/gcc-ranlib-16"
+      - "/home/remco/develop/flutter/bin/gcc-ranlib-16"
+      - "/home/remco/miniconda3/bin/gcc-ranlib-16"
+      - "/home/remco/miniconda3/condabin/gcc-ranlib-16"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/gcc-ranlib-16"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared/gcc-ranlib-16"
+      - "/home/remco/.local/share/mise/installs/go/1.25.6/bin/gcc-ranlib-16"
+      - "/home/remco/.local/share/mise/installs/java/25.0.1/bin/gcc-ranlib-16"
+      - "/home/remco/.local/share/mise/installs/node/25.2.1/bin/gcc-ranlib-16"
+      - "/home/remco/.local/share/mise/installs/python/3.14.2/bin/gcc-ranlib-16"
+      - "/home/remco/.local/bin/gcc-ranlib-16"
+      - "/opt/cuda/bin/gcc-ranlib-16"
+      - "/home/remco/.local/share/omarchy/bin/gcc-ranlib-16"
+      - "/home/remco/.local/share/mise/shims/gcc-ranlib-16"
+      - "/home/remco/.cargo/bin/gcc-ranlib-16"
+      - "/usr/local/sbin/gcc-ranlib-16"
+      - "/usr/local/bin/gcc-ranlib-16"
+      - "/usr/lib/jvm/default/bin/gcc-ranlib-16"
+      - "/usr/bin/site_perl/gcc-ranlib-16"
+      - "/usr/bin/vendor_perl/gcc-ranlib-16"
+      - "/usr/bin/core_perl/gcc-ranlib-16"
+      - "/home/remco/.local/share/JetBrains/Toolbox/scripts/gcc-ranlib-16"
+      - "/usr/local/bin/gcc-ranlib-16"
+      - "/usr/local/sbin/gcc-ranlib-16"
+      - "/usr/local/gcc-ranlib-16"
+      - "/usr/bin/gcc-ranlib-16"
+      - "/usr/sbin/gcc-ranlib-16"
+      - "/usr/gcc-ranlib-16"
+      - "/bin/gcc-ranlib-16"
+      - "/sbin/gcc-ranlib-16"
+      - "/usr/X11R6/bin/gcc-ranlib-16"
+      - "/usr/X11R6/sbin/gcc-ranlib-16"
+      - "/usr/X11R6/gcc-ranlib-16"
+      - "/usr/pkg/bin/gcc-ranlib-16"
+      - "/usr/pkg/sbin/gcc-ranlib-16"
+      - "/usr/pkg/gcc-ranlib-16"
+      - "/opt/bin/gcc-ranlib-16"
+      - "/opt/sbin/gcc-ranlib-16"
+      - "/opt/gcc-ranlib-16"
+      - "/usr/bin/gcc-ranlib16"
+      - "/home/remco/develop/flutter/bin/gcc-ranlib16"
+      - "/home/remco/miniconda3/bin/gcc-ranlib16"
+      - "/home/remco/miniconda3/condabin/gcc-ranlib16"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/gcc-ranlib16"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared/gcc-ranlib16"
+      - "/home/remco/.local/share/mise/installs/go/1.25.6/bin/gcc-ranlib16"
+      - "/home/remco/.local/share/mise/installs/java/25.0.1/bin/gcc-ranlib16"
+      - "/home/remco/.local/share/mise/installs/node/25.2.1/bin/gcc-ranlib16"
+      - "/home/remco/.local/share/mise/installs/python/3.14.2/bin/gcc-ranlib16"
+      - "/home/remco/.local/bin/gcc-ranlib16"
+      - "/opt/cuda/bin/gcc-ranlib16"
+      - "/home/remco/.local/share/omarchy/bin/gcc-ranlib16"
+      - "/home/remco/.local/share/mise/shims/gcc-ranlib16"
+      - "/home/remco/.cargo/bin/gcc-ranlib16"
+      - "/usr/local/sbin/gcc-ranlib16"
+      - "/usr/local/bin/gcc-ranlib16"
+      - "/usr/lib/jvm/default/bin/gcc-ranlib16"
+      - "/usr/bin/site_perl/gcc-ranlib16"
+      - "/usr/bin/vendor_perl/gcc-ranlib16"
+      - "/usr/bin/core_perl/gcc-ranlib16"
+      - "/home/remco/.local/share/JetBrains/Toolbox/scripts/gcc-ranlib16"
+      - "/usr/local/bin/gcc-ranlib16"
+      - "/usr/local/sbin/gcc-ranlib16"
+      - "/usr/local/gcc-ranlib16"
+      - "/usr/bin/gcc-ranlib16"
+      - "/usr/sbin/gcc-ranlib16"
+      - "/usr/gcc-ranlib16"
+      - "/bin/gcc-ranlib16"
+      - "/sbin/gcc-ranlib16"
+      - "/usr/X11R6/bin/gcc-ranlib16"
+      - "/usr/X11R6/sbin/gcc-ranlib16"
+      - "/usr/X11R6/gcc-ranlib16"
+      - "/usr/pkg/bin/gcc-ranlib16"
+      - "/usr/pkg/sbin/gcc-ranlib16"
+      - "/usr/pkg/gcc-ranlib16"
+      - "/opt/bin/gcc-ranlib16"
+      - "/opt/sbin/gcc-ranlib16"
+      - "/opt/gcc-ranlib16"
+    found: "/usr/bin/gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/remco/develop/flutter/bin"
+        - "/home/remco/miniconda3/bin"
+        - "/home/remco/miniconda3/condabin"
+        - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/"
+        - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared"
+        - "/home/remco/.local/share/mise/installs/go/1.25.6/bin"
+        - "/home/remco/.local/share/mise/installs/java/25.0.1/bin"
+        - "/home/remco/.local/share/mise/installs/node/25.2.1/bin"
+        - "/home/remco/.local/share/mise/installs/python/3.14.2/bin"
+        - "/home/remco/.local/bin"
+        - "/opt/cuda/bin"
+        - "/home/remco/.local/share/omarchy/bin"
+        - "/home/remco/.local/share/mise/shims"
+        - "/home/remco/.local/share/omarchy/bin"
+        - "/home/remco/.cargo/bin"
+        - "/home/remco/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/cuda/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/remco/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/remco/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/remco/.local/bin"
+        - "/home/remco/.local/share/../bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "build/_deps/googletest-src/CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/remco/Documents/projects/cpp/moleculair_weight/build/CMakeFiles/CMakeScratch/TryCompile-WGjXKS"
+      binary: "/home/remco/Documents/projects/cpp/moleculair_weight/build/CMakeFiles/CMakeScratch/TryCompile-WGjXKS"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/remco/Documents/projects/cpp/moleculair_weight/build/CMakeFiles/CMakeScratch/TryCompile-WGjXKS'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_40631/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_40631.dir/build.make CMakeFiles/cmTC_40631.dir/build
+        make[1]: Entering directory '/mnt/data/Documents/projects/cpp/moleculair_weight/build/CMakeFiles/CMakeScratch/TryCompile-WGjXKS'
+        Building C object CMakeFiles/cmTC_40631.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_40631.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        Target: x86_64-pc-linux-gnu
+        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust,cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror --disable-fixincludes
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 16.1.1 20260430 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_40631.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_40631.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_40631.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccPZGuQp.s
+        GNU C23 (GCC) version 16.1.1 20260430 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 16.1.1 20260430, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../x86_64-pc-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include
+         /usr/local/include
+         /usr/include
+        End of search list.
+        Compiler executable checksum: d640c2d0cc84ebd71ee43ed7e2df63fb
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_40631.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_40631.dir/'
+         as -v --64 -o CMakeFiles/cmTC_40631.dir/CMakeCCompilerABI.c.o /tmp/ccPZGuQp.s
+        GNU assembler version 2.46.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.46.0
+        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_40631.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_40631.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_40631
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40631.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/lto-wrapper
+        Target: x86_64-pc-linux-gnu
+        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust,cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror --disable-fixincludes
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 16.1.1 20260430 (GCC) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_40631' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_40631.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYGoXcE.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_40631 /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_40631.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crtn.o
+        collect2 version 16.1.1 20260430
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYGoXcE.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_40631 /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_40631.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crtn.o
+        GNU ld (GNU Binutils) 2.46.0
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_40631' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_40631.'
+        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_40631.dir/CMakeCCompilerABI.c.o -o cmTC_40631
+        make[1]: Leaving directory '/mnt/data/Documents/projects/cpp/moleculair_weight/build/CMakeFiles/CMakeScratch/TryCompile-WGjXKS'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "build/_deps/googletest-src/CMakeLists.txt:6 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include]
+          add: [/usr/local/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include;/usr/local/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "build/_deps/googletest-src/CMakeLists.txt:6 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/remco/Documents/projects/cpp/moleculair_weight/build/CMakeFiles/CMakeScratch/TryCompile-WGjXKS']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_40631/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_40631.dir/build.make CMakeFiles/cmTC_40631.dir/build]
+        ignore line: [make[1]: Entering directory '/mnt/data/Documents/projects/cpp/moleculair_weight/build/CMakeFiles/CMakeScratch/TryCompile-WGjXKS']
+        ignore line: [Building C object CMakeFiles/cmTC_40631.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_40631.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror --disable-fixincludes]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 16.1.1 20260430 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_40631.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_40631.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_40631.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccPZGuQp.s]
+        ignore line: [GNU C23 (GCC) version 16.1.1 20260430 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 16.1.1 20260430  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: d640c2d0cc84ebd71ee43ed7e2df63fb]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_40631.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_40631.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_40631.dir/CMakeCCompilerABI.c.o /tmp/ccPZGuQp.s]
+        ignore line: [GNU assembler version 2.46.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.46.0]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_40631.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_40631.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_40631]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40631.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/lto-wrapper]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror --disable-fixincludes]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 16.1.1 20260430 (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_40631' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_40631.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYGoXcE.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_40631 /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_40631.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crtn.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccYGoXcE.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s_asneeded] ==> ignore
+          arg [-plugin-opt=-pass-through=-latomic_asneeded] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s_asneeded] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_40631] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crti.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../..]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_40631.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_s_asneeded] ==> lib [gcc_s_asneeded]
+          arg [-latomic_asneeded] ==> lib [atomic_asneeded]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_s_asneeded] ==> lib [gcc_s_asneeded]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crtn.o]
+        ignore line: [collect2 version 16.1.1 20260430]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYGoXcE.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_40631 /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_40631.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crtn.o]
+        linker tool for 'C': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crtn.o] ==> [/usr/lib/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../..] ==> [/usr/lib]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s_asneeded;atomic_asneeded;c;gcc;gcc_s_asneeded]
+        implicit objs: [/usr/lib/Scrt1.o;/usr/lib/crti.o;/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtbeginS.o;/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtendS.o;/usr/lib/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1;/usr/lib;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "build/_deps/googletest-src/CMakeLists.txt:6 (project)"
+    message: |
+      Running the C compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.46.0
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindPython/Support.cmake:2249 (find_program)"
+      - "/usr/share/cmake/Modules/FindPython3.cmake:671 (include)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:250 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:81 (include)"
+    mode: "program"
+    variable: "_Python3_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.15mu"
+      - "python3.15m"
+      - "python3.15u"
+      - "python3.15"
+      - "python3.15dmu"
+      - "python3.15dm"
+      - "python3.15du"
+      - "python3.15d"
+      - "python3"
+      - "python"
+    candidate_directories:
+      - "/home/remco/miniconda3/bin/"
+      - "/home/remco/miniconda3/Scripts/"
+      - "/home/remco/miniconda3/"
+    searched_directories:
+      - "/home/remco/miniconda3/bin/python3.15mu"
+      - "/home/remco/miniconda3/bin/python3.15m"
+      - "/home/remco/miniconda3/bin/python3.15u"
+      - "/home/remco/miniconda3/bin/python3.15"
+      - "/home/remco/miniconda3/bin/python3.15dmu"
+      - "/home/remco/miniconda3/bin/python3.15dm"
+      - "/home/remco/miniconda3/bin/python3.15du"
+      - "/home/remco/miniconda3/bin/python3.15d"
+      - "/home/remco/miniconda3/bin/python3"
+      - "/home/remco/miniconda3/bin/python"
+      - "/home/remco/miniconda3/Scripts/python3.15mu"
+      - "/home/remco/miniconda3/Scripts/python3.15m"
+      - "/home/remco/miniconda3/Scripts/python3.15u"
+      - "/home/remco/miniconda3/Scripts/python3.15"
+      - "/home/remco/miniconda3/Scripts/python3.15dmu"
+      - "/home/remco/miniconda3/Scripts/python3.15dm"
+      - "/home/remco/miniconda3/Scripts/python3.15du"
+      - "/home/remco/miniconda3/Scripts/python3.15d"
+      - "/home/remco/miniconda3/Scripts/python3"
+      - "/home/remco/miniconda3/Scripts/python"
+      - "/home/remco/miniconda3/python3.15mu"
+      - "/home/remco/miniconda3/python3.15m"
+      - "/home/remco/miniconda3/python3.15u"
+      - "/home/remco/miniconda3/python3.15"
+      - "/home/remco/miniconda3/python3.15dmu"
+      - "/home/remco/miniconda3/python3.15dm"
+      - "/home/remco/miniconda3/python3.15du"
+      - "/home/remco/miniconda3/python3.15d"
+      - "/home/remco/miniconda3/python3"
+      - "/home/remco/miniconda3/python"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/remco/develop/flutter/bin"
+        - "/home/remco/miniconda3/bin"
+        - "/home/remco/miniconda3/condabin"
+        - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/"
+        - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared"
+        - "/home/remco/.local/share/mise/installs/go/1.25.6/bin"
+        - "/home/remco/.local/share/mise/installs/java/25.0.1/bin"
+        - "/home/remco/.local/share/mise/installs/node/25.2.1/bin"
+        - "/home/remco/.local/share/mise/installs/python/3.14.2/bin"
+        - "/home/remco/.local/bin"
+        - "/opt/cuda/bin"
+        - "/home/remco/.local/share/omarchy/bin"
+        - "/home/remco/.local/share/mise/shims"
+        - "/home/remco/.local/share/omarchy/bin"
+        - "/home/remco/.cargo/bin"
+        - "/home/remco/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/cuda/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/remco/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/remco/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/remco/.local/bin"
+        - "/home/remco/.local/share/../bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindPython/Support.cmake:2315 (find_program)"
+      - "/usr/share/cmake/Modules/FindPython3.cmake:671 (include)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:250 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:81 (include)"
+    mode: "program"
+    variable: "_Python3_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.14mu"
+      - "python3.14m"
+      - "python3.14u"
+      - "python3.14"
+      - "python3.14dmu"
+      - "python3.14dm"
+      - "python3.14du"
+      - "python3.14d"
+      - "python3"
+      - "python"
+    candidate_directories:
+      - "/home/remco/develop/flutter/bin/bin/"
+      - "/home/remco/develop/flutter/bin/Scripts/"
+      - "/home/remco/develop/flutter/bin/"
+      - "/home/remco/miniconda3/bin/bin/"
+      - "/home/remco/miniconda3/bin/Scripts/"
+      - "/home/remco/miniconda3/bin/"
+      - "/home/remco/miniconda3/condabin/bin/"
+      - "/home/remco/miniconda3/condabin/Scripts/"
+      - "/home/remco/miniconda3/condabin/"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/bin/"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/Scripts/"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared/bin/"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared/Scripts/"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared/"
+      - "/home/remco/.local/share/mise/installs/go/1.25.6/bin/bin/"
+      - "/home/remco/.local/share/mise/installs/go/1.25.6/bin/Scripts/"
+      - "/home/remco/.local/share/mise/installs/go/1.25.6/bin/"
+      - "/home/remco/.local/share/mise/installs/java/25.0.1/bin/bin/"
+      - "/home/remco/.local/share/mise/installs/java/25.0.1/bin/Scripts/"
+      - "/home/remco/.local/share/mise/installs/java/25.0.1/bin/"
+      - "/home/remco/.local/share/mise/installs/node/25.2.1/bin/bin/"
+      - "/home/remco/.local/share/mise/installs/node/25.2.1/bin/Scripts/"
+      - "/home/remco/.local/share/mise/installs/node/25.2.1/bin/"
+      - "/home/remco/.local/share/mise/installs/python/3.14.2/bin/bin/"
+      - "/home/remco/.local/share/mise/installs/python/3.14.2/bin/Scripts/"
+      - "/home/remco/.local/share/mise/installs/python/3.14.2/bin/"
+      - "/home/remco/.local/bin/bin/"
+      - "/home/remco/.local/bin/Scripts/"
+      - "/home/remco/.local/bin/"
+      - "/opt/cuda/bin/bin/"
+      - "/opt/cuda/bin/Scripts/"
+      - "/opt/cuda/bin/"
+      - "/home/remco/.local/share/omarchy/bin/bin/"
+      - "/home/remco/.local/share/omarchy/bin/Scripts/"
+      - "/home/remco/.local/share/omarchy/bin/"
+      - "/home/remco/.local/share/mise/shims/bin/"
+      - "/home/remco/.local/share/mise/shims/Scripts/"
+      - "/home/remco/.local/share/mise/shims/"
+      - "/home/remco/.cargo/bin/bin/"
+      - "/home/remco/.cargo/bin/Scripts/"
+      - "/home/remco/.cargo/bin/"
+      - "/usr/local/sbin/bin/"
+      - "/usr/local/sbin/Scripts/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/bin/"
+      - "/usr/local/bin/Scripts/"
+      - "/usr/local/bin/"
+      - "/usr/bin/bin/"
+      - "/usr/bin/Scripts/"
+      - "/usr/bin/"
+      - "/usr/lib/jvm/default/bin/bin/"
+      - "/usr/lib/jvm/default/bin/Scripts/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/bin/"
+      - "/usr/bin/site_perl/Scripts/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/bin/"
+      - "/usr/bin/vendor_perl/Scripts/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/bin/"
+      - "/usr/bin/core_perl/Scripts/"
+      - "/usr/bin/core_perl/"
+      - "/home/remco/.local/share/JetBrains/Toolbox/scripts/bin/"
+      - "/home/remco/.local/share/JetBrains/Toolbox/scripts/Scripts/"
+      - "/home/remco/.local/share/JetBrains/Toolbox/scripts/"
+      - "/usr/local/bin/bin/"
+      - "/usr/local/bin/Scripts/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/bin/"
+      - "/usr/local/sbin/Scripts/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/local/Scripts/"
+      - "/usr/local/"
+      - "/usr/bin/bin/"
+      - "/usr/bin/Scripts/"
+      - "/usr/bin/"
+      - "/usr/sbin/bin/"
+      - "/usr/sbin/Scripts/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/usr/Scripts/"
+      - "/usr/"
+      - "/bin/bin/"
+      - "/bin/Scripts/"
+      - "/bin/"
+      - "/sbin/bin/"
+      - "/sbin/Scripts/"
+      - "/sbin/"
+      - "/usr/X11R6/bin/bin/"
+      - "/usr/X11R6/bin/Scripts/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/bin/"
+      - "/usr/X11R6/sbin/Scripts/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/Scripts/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/bin/"
+      - "/usr/pkg/bin/Scripts/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/bin/"
+      - "/usr/pkg/sbin/Scripts/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/Scripts/"
+      - "/usr/pkg/"
+      - "/opt/bin/bin/"
+      - "/opt/bin/Scripts/"
+      - "/opt/bin/"
+      - "/opt/sbin/bin/"
+      - "/opt/sbin/Scripts/"
+      - "/opt/sbin/"
+      - "/opt/bin/"
+      - "/opt/Scripts/"
+      - "/opt/"
+    searched_directories:
+      - "/home/remco/develop/flutter/bin/bin/python3.14mu"
+      - "/home/remco/develop/flutter/bin/bin/python3.14m"
+      - "/home/remco/develop/flutter/bin/bin/python3.14u"
+      - "/home/remco/develop/flutter/bin/bin/python3.14"
+      - "/home/remco/develop/flutter/bin/bin/python3.14dmu"
+      - "/home/remco/develop/flutter/bin/bin/python3.14dm"
+      - "/home/remco/develop/flutter/bin/bin/python3.14du"
+      - "/home/remco/develop/flutter/bin/bin/python3.14d"
+      - "/home/remco/develop/flutter/bin/bin/python3"
+      - "/home/remco/develop/flutter/bin/bin/python"
+      - "/home/remco/develop/flutter/bin/Scripts/python3.14mu"
+      - "/home/remco/develop/flutter/bin/Scripts/python3.14m"
+      - "/home/remco/develop/flutter/bin/Scripts/python3.14u"
+      - "/home/remco/develop/flutter/bin/Scripts/python3.14"
+      - "/home/remco/develop/flutter/bin/Scripts/python3.14dmu"
+      - "/home/remco/develop/flutter/bin/Scripts/python3.14dm"
+      - "/home/remco/develop/flutter/bin/Scripts/python3.14du"
+      - "/home/remco/develop/flutter/bin/Scripts/python3.14d"
+      - "/home/remco/develop/flutter/bin/Scripts/python3"
+      - "/home/remco/develop/flutter/bin/Scripts/python"
+      - "/home/remco/develop/flutter/bin/python3.14mu"
+      - "/home/remco/develop/flutter/bin/python3.14m"
+      - "/home/remco/develop/flutter/bin/python3.14u"
+      - "/home/remco/develop/flutter/bin/python3.14"
+      - "/home/remco/develop/flutter/bin/python3.14dmu"
+      - "/home/remco/develop/flutter/bin/python3.14dm"
+      - "/home/remco/develop/flutter/bin/python3.14du"
+      - "/home/remco/develop/flutter/bin/python3.14d"
+      - "/home/remco/develop/flutter/bin/python3"
+      - "/home/remco/develop/flutter/bin/python"
+      - "/home/remco/miniconda3/bin/bin/python3.14mu"
+      - "/home/remco/miniconda3/bin/bin/python3.14m"
+      - "/home/remco/miniconda3/bin/bin/python3.14u"
+      - "/home/remco/miniconda3/bin/bin/python3.14"
+      - "/home/remco/miniconda3/bin/bin/python3.14dmu"
+      - "/home/remco/miniconda3/bin/bin/python3.14dm"
+      - "/home/remco/miniconda3/bin/bin/python3.14du"
+      - "/home/remco/miniconda3/bin/bin/python3.14d"
+      - "/home/remco/miniconda3/bin/bin/python3"
+      - "/home/remco/miniconda3/bin/bin/python"
+      - "/home/remco/miniconda3/bin/Scripts/python3.14mu"
+      - "/home/remco/miniconda3/bin/Scripts/python3.14m"
+      - "/home/remco/miniconda3/bin/Scripts/python3.14u"
+      - "/home/remco/miniconda3/bin/Scripts/python3.14"
+      - "/home/remco/miniconda3/bin/Scripts/python3.14dmu"
+      - "/home/remco/miniconda3/bin/Scripts/python3.14dm"
+      - "/home/remco/miniconda3/bin/Scripts/python3.14du"
+      - "/home/remco/miniconda3/bin/Scripts/python3.14d"
+      - "/home/remco/miniconda3/bin/Scripts/python3"
+      - "/home/remco/miniconda3/bin/Scripts/python"
+      - "/home/remco/miniconda3/bin/python3.14mu"
+      - "/home/remco/miniconda3/bin/python3.14m"
+      - "/home/remco/miniconda3/bin/python3.14u"
+      - "/home/remco/miniconda3/bin/python3.14"
+      - "/home/remco/miniconda3/bin/python3.14dmu"
+      - "/home/remco/miniconda3/bin/python3.14dm"
+      - "/home/remco/miniconda3/bin/python3.14du"
+      - "/home/remco/miniconda3/bin/python3.14d"
+      - "/home/remco/miniconda3/bin/python3"
+      - "/home/remco/miniconda3/bin/python"
+      - "/home/remco/miniconda3/condabin/bin/python3.14mu"
+      - "/home/remco/miniconda3/condabin/bin/python3.14m"
+      - "/home/remco/miniconda3/condabin/bin/python3.14u"
+      - "/home/remco/miniconda3/condabin/bin/python3.14"
+      - "/home/remco/miniconda3/condabin/bin/python3.14dmu"
+      - "/home/remco/miniconda3/condabin/bin/python3.14dm"
+      - "/home/remco/miniconda3/condabin/bin/python3.14du"
+      - "/home/remco/miniconda3/condabin/bin/python3.14d"
+      - "/home/remco/miniconda3/condabin/bin/python3"
+      - "/home/remco/miniconda3/condabin/bin/python"
+      - "/home/remco/miniconda3/condabin/Scripts/python3.14mu"
+      - "/home/remco/miniconda3/condabin/Scripts/python3.14m"
+      - "/home/remco/miniconda3/condabin/Scripts/python3.14u"
+      - "/home/remco/miniconda3/condabin/Scripts/python3.14"
+      - "/home/remco/miniconda3/condabin/Scripts/python3.14dmu"
+      - "/home/remco/miniconda3/condabin/Scripts/python3.14dm"
+      - "/home/remco/miniconda3/condabin/Scripts/python3.14du"
+      - "/home/remco/miniconda3/condabin/Scripts/python3.14d"
+      - "/home/remco/miniconda3/condabin/Scripts/python3"
+      - "/home/remco/miniconda3/condabin/Scripts/python"
+      - "/home/remco/miniconda3/condabin/python3.14mu"
+      - "/home/remco/miniconda3/condabin/python3.14m"
+      - "/home/remco/miniconda3/condabin/python3.14u"
+      - "/home/remco/miniconda3/condabin/python3.14"
+      - "/home/remco/miniconda3/condabin/python3.14dmu"
+      - "/home/remco/miniconda3/condabin/python3.14dm"
+      - "/home/remco/miniconda3/condabin/python3.14du"
+      - "/home/remco/miniconda3/condabin/python3.14d"
+      - "/home/remco/miniconda3/condabin/python3"
+      - "/home/remco/miniconda3/condabin/python"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/bin/python3.14mu"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/bin/python3.14m"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/bin/python3.14u"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/bin/python3.14"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/bin/python3.14dmu"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/bin/python3.14dm"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/bin/python3.14du"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/bin/python3.14d"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/bin/python3"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/bin/python"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/Scripts/python3.14mu"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/Scripts/python3.14m"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/Scripts/python3.14u"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/Scripts/python3.14"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/Scripts/python3.14dmu"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/Scripts/python3.14dm"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/Scripts/python3.14du"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/Scripts/python3.14d"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/Scripts/python3"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/Scripts/python"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/python3.14mu"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/python3.14m"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/python3.14u"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/python3.14"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/python3.14dmu"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/python3.14dm"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/python3.14du"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/python3.14d"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/python3"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/python"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared/bin/python3.14mu"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared/bin/python3.14m"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared/bin/python3.14u"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared/bin/python3.14"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared/bin/python3.14dmu"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared/bin/python3.14dm"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared/bin/python3.14du"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared/bin/python3.14d"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared/bin/python3"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared/bin/python"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared/Scripts/python3.14mu"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared/Scripts/python3.14m"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared/Scripts/python3.14u"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared/Scripts/python3.14"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared/Scripts/python3.14dmu"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared/Scripts/python3.14dm"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared/Scripts/python3.14du"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared/Scripts/python3.14d"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared/Scripts/python3"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared/Scripts/python"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared/python3.14mu"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared/python3.14m"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared/python3.14u"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared/python3.14"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared/python3.14dmu"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared/python3.14dm"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared/python3.14du"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared/python3.14d"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared/python3"
+      - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared/python"
+      - "/home/remco/.local/share/mise/installs/go/1.25.6/bin/bin/python3.14mu"
+      - "/home/remco/.local/share/mise/installs/go/1.25.6/bin/bin/python3.14m"
+      - "/home/remco/.local/share/mise/installs/go/1.25.6/bin/bin/python3.14u"
+      - "/home/remco/.local/share/mise/installs/go/1.25.6/bin/bin/python3.14"
+      - "/home/remco/.local/share/mise/installs/go/1.25.6/bin/bin/python3.14dmu"
+      - "/home/remco/.local/share/mise/installs/go/1.25.6/bin/bin/python3.14dm"
+      - "/home/remco/.local/share/mise/installs/go/1.25.6/bin/bin/python3.14du"
+      - "/home/remco/.local/share/mise/installs/go/1.25.6/bin/bin/python3.14d"
+      - "/home/remco/.local/share/mise/installs/go/1.25.6/bin/bin/python3"
+      - "/home/remco/.local/share/mise/installs/go/1.25.6/bin/bin/python"
+      - "/home/remco/.local/share/mise/installs/go/1.25.6/bin/Scripts/python3.14mu"
+      - "/home/remco/.local/share/mise/installs/go/1.25.6/bin/Scripts/python3.14m"
+      - "/home/remco/.local/share/mise/installs/go/1.25.6/bin/Scripts/python3.14u"
+      - "/home/remco/.local/share/mise/installs/go/1.25.6/bin/Scripts/python3.14"
+      - "/home/remco/.local/share/mise/installs/go/1.25.6/bin/Scripts/python3.14dmu"
+      - "/home/remco/.local/share/mise/installs/go/1.25.6/bin/Scripts/python3.14dm"
+      - "/home/remco/.local/share/mise/installs/go/1.25.6/bin/Scripts/python3.14du"
+      - "/home/remco/.local/share/mise/installs/go/1.25.6/bin/Scripts/python3.14d"
+      - "/home/remco/.local/share/mise/installs/go/1.25.6/bin/Scripts/python3"
+      - "/home/remco/.local/share/mise/installs/go/1.25.6/bin/Scripts/python"
+      - "/home/remco/.local/share/mise/installs/go/1.25.6/bin/python3.14mu"
+      - "/home/remco/.local/share/mise/installs/go/1.25.6/bin/python3.14m"
+      - "/home/remco/.local/share/mise/installs/go/1.25.6/bin/python3.14u"
+      - "/home/remco/.local/share/mise/installs/go/1.25.6/bin/python3.14"
+      - "/home/remco/.local/share/mise/installs/go/1.25.6/bin/python3.14dmu"
+      - "/home/remco/.local/share/mise/installs/go/1.25.6/bin/python3.14dm"
+      - "/home/remco/.local/share/mise/installs/go/1.25.6/bin/python3.14du"
+      - "/home/remco/.local/share/mise/installs/go/1.25.6/bin/python3.14d"
+      - "/home/remco/.local/share/mise/installs/go/1.25.6/bin/python3"
+      - "/home/remco/.local/share/mise/installs/go/1.25.6/bin/python"
+      - "/home/remco/.local/share/mise/installs/java/25.0.1/bin/bin/python3.14mu"
+      - "/home/remco/.local/share/mise/installs/java/25.0.1/bin/bin/python3.14m"
+      - "/home/remco/.local/share/mise/installs/java/25.0.1/bin/bin/python3.14u"
+      - "/home/remco/.local/share/mise/installs/java/25.0.1/bin/bin/python3.14"
+      - "/home/remco/.local/share/mise/installs/java/25.0.1/bin/bin/python3.14dmu"
+      - "/home/remco/.local/share/mise/installs/java/25.0.1/bin/bin/python3.14dm"
+      - "/home/remco/.local/share/mise/installs/java/25.0.1/bin/bin/python3.14du"
+      - "/home/remco/.local/share/mise/installs/java/25.0.1/bin/bin/python3.14d"
+      - "/home/remco/.local/share/mise/installs/java/25.0.1/bin/bin/python3"
+      - "/home/remco/.local/share/mise/installs/java/25.0.1/bin/bin/python"
+      - "/home/remco/.local/share/mise/installs/java/25.0.1/bin/Scripts/python3.14mu"
+      - "/home/remco/.local/share/mise/installs/java/25.0.1/bin/Scripts/python3.14m"
+      - "/home/remco/.local/share/mise/installs/java/25.0.1/bin/Scripts/python3.14u"
+      - "/home/remco/.local/share/mise/installs/java/25.0.1/bin/Scripts/python3.14"
+      - "/home/remco/.local/share/mise/installs/java/25.0.1/bin/Scripts/python3.14dmu"
+      - "/home/remco/.local/share/mise/installs/java/25.0.1/bin/Scripts/python3.14dm"
+      - "/home/remco/.local/share/mise/installs/java/25.0.1/bin/Scripts/python3.14du"
+      - "/home/remco/.local/share/mise/installs/java/25.0.1/bin/Scripts/python3.14d"
+      - "/home/remco/.local/share/mise/installs/java/25.0.1/bin/Scripts/python3"
+      - "/home/remco/.local/share/mise/installs/java/25.0.1/bin/Scripts/python"
+      - "/home/remco/.local/share/mise/installs/java/25.0.1/bin/python3.14mu"
+      - "/home/remco/.local/share/mise/installs/java/25.0.1/bin/python3.14m"
+      - "/home/remco/.local/share/mise/installs/java/25.0.1/bin/python3.14u"
+      - "/home/remco/.local/share/mise/installs/java/25.0.1/bin/python3.14"
+      - "/home/remco/.local/share/mise/installs/java/25.0.1/bin/python3.14dmu"
+      - "/home/remco/.local/share/mise/installs/java/25.0.1/bin/python3.14dm"
+      - "/home/remco/.local/share/mise/installs/java/25.0.1/bin/python3.14du"
+      - "/home/remco/.local/share/mise/installs/java/25.0.1/bin/python3.14d"
+      - "/home/remco/.local/share/mise/installs/java/25.0.1/bin/python3"
+      - "/home/remco/.local/share/mise/installs/java/25.0.1/bin/python"
+      - "/home/remco/.local/share/mise/installs/node/25.2.1/bin/bin/python3.14mu"
+      - "/home/remco/.local/share/mise/installs/node/25.2.1/bin/bin/python3.14m"
+      - "/home/remco/.local/share/mise/installs/node/25.2.1/bin/bin/python3.14u"
+      - "/home/remco/.local/share/mise/installs/node/25.2.1/bin/bin/python3.14"
+      - "/home/remco/.local/share/mise/installs/node/25.2.1/bin/bin/python3.14dmu"
+      - "/home/remco/.local/share/mise/installs/node/25.2.1/bin/bin/python3.14dm"
+      - "/home/remco/.local/share/mise/installs/node/25.2.1/bin/bin/python3.14du"
+      - "/home/remco/.local/share/mise/installs/node/25.2.1/bin/bin/python3.14d"
+      - "/home/remco/.local/share/mise/installs/node/25.2.1/bin/bin/python3"
+      - "/home/remco/.local/share/mise/installs/node/25.2.1/bin/bin/python"
+      - "/home/remco/.local/share/mise/installs/node/25.2.1/bin/Scripts/python3.14mu"
+      - "/home/remco/.local/share/mise/installs/node/25.2.1/bin/Scripts/python3.14m"
+      - "/home/remco/.local/share/mise/installs/node/25.2.1/bin/Scripts/python3.14u"
+      - "/home/remco/.local/share/mise/installs/node/25.2.1/bin/Scripts/python3.14"
+      - "/home/remco/.local/share/mise/installs/node/25.2.1/bin/Scripts/python3.14dmu"
+      - "/home/remco/.local/share/mise/installs/node/25.2.1/bin/Scripts/python3.14dm"
+      - "/home/remco/.local/share/mise/installs/node/25.2.1/bin/Scripts/python3.14du"
+      - "/home/remco/.local/share/mise/installs/node/25.2.1/bin/Scripts/python3.14d"
+      - "/home/remco/.local/share/mise/installs/node/25.2.1/bin/Scripts/python3"
+      - "/home/remco/.local/share/mise/installs/node/25.2.1/bin/Scripts/python"
+      - "/home/remco/.local/share/mise/installs/node/25.2.1/bin/python3.14mu"
+      - "/home/remco/.local/share/mise/installs/node/25.2.1/bin/python3.14m"
+      - "/home/remco/.local/share/mise/installs/node/25.2.1/bin/python3.14u"
+      - "/home/remco/.local/share/mise/installs/node/25.2.1/bin/python3.14"
+      - "/home/remco/.local/share/mise/installs/node/25.2.1/bin/python3.14dmu"
+      - "/home/remco/.local/share/mise/installs/node/25.2.1/bin/python3.14dm"
+      - "/home/remco/.local/share/mise/installs/node/25.2.1/bin/python3.14du"
+      - "/home/remco/.local/share/mise/installs/node/25.2.1/bin/python3.14d"
+      - "/home/remco/.local/share/mise/installs/node/25.2.1/bin/python3"
+      - "/home/remco/.local/share/mise/installs/node/25.2.1/bin/python"
+      - "/home/remco/.local/share/mise/installs/python/3.14.2/bin/bin/python3.14mu"
+      - "/home/remco/.local/share/mise/installs/python/3.14.2/bin/bin/python3.14m"
+      - "/home/remco/.local/share/mise/installs/python/3.14.2/bin/bin/python3.14u"
+      - "/home/remco/.local/share/mise/installs/python/3.14.2/bin/bin/python3.14"
+      - "/home/remco/.local/share/mise/installs/python/3.14.2/bin/bin/python3.14dmu"
+      - "/home/remco/.local/share/mise/installs/python/3.14.2/bin/bin/python3.14dm"
+      - "/home/remco/.local/share/mise/installs/python/3.14.2/bin/bin/python3.14du"
+      - "/home/remco/.local/share/mise/installs/python/3.14.2/bin/bin/python3.14d"
+      - "/home/remco/.local/share/mise/installs/python/3.14.2/bin/bin/python3"
+      - "/home/remco/.local/share/mise/installs/python/3.14.2/bin/bin/python"
+      - "/home/remco/.local/share/mise/installs/python/3.14.2/bin/Scripts/python3.14mu"
+      - "/home/remco/.local/share/mise/installs/python/3.14.2/bin/Scripts/python3.14m"
+      - "/home/remco/.local/share/mise/installs/python/3.14.2/bin/Scripts/python3.14u"
+      - "/home/remco/.local/share/mise/installs/python/3.14.2/bin/Scripts/python3.14"
+      - "/home/remco/.local/share/mise/installs/python/3.14.2/bin/Scripts/python3.14dmu"
+      - "/home/remco/.local/share/mise/installs/python/3.14.2/bin/Scripts/python3.14dm"
+      - "/home/remco/.local/share/mise/installs/python/3.14.2/bin/Scripts/python3.14du"
+      - "/home/remco/.local/share/mise/installs/python/3.14.2/bin/Scripts/python3.14d"
+      - "/home/remco/.local/share/mise/installs/python/3.14.2/bin/Scripts/python3"
+      - "/home/remco/.local/share/mise/installs/python/3.14.2/bin/Scripts/python"
+      - "/home/remco/.local/share/mise/installs/python/3.14.2/bin/python3.14mu"
+      - "/home/remco/.local/share/mise/installs/python/3.14.2/bin/python3.14m"
+      - "/home/remco/.local/share/mise/installs/python/3.14.2/bin/python3.14u"
+    found: "/home/remco/.local/share/mise/installs/python/3.14.2/bin/python3.14"
+    search_context:
+      ENV{PATH}:
+        - "/home/remco/develop/flutter/bin"
+        - "/home/remco/miniconda3/bin"
+        - "/home/remco/miniconda3/condabin"
+        - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/"
+        - "/home/remco/.local/share/mise/installs/dotnet/10.0.102/shared"
+        - "/home/remco/.local/share/mise/installs/go/1.25.6/bin"
+        - "/home/remco/.local/share/mise/installs/java/25.0.1/bin"
+        - "/home/remco/.local/share/mise/installs/node/25.2.1/bin"
+        - "/home/remco/.local/share/mise/installs/python/3.14.2/bin"
+        - "/home/remco/.local/bin"
+        - "/opt/cuda/bin"
+        - "/home/remco/.local/share/omarchy/bin"
+        - "/home/remco/.local/share/mise/shims"
+        - "/home/remco/.local/share/omarchy/bin"
+        - "/home/remco/.cargo/bin"
+        - "/home/remco/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/cuda/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/remco/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/remco/.local/share/JetBrains/Toolbox/scripts"
+        - "/home/remco/.local/bin"
+        - "/home/remco/.local/share/../bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/FindThreads.cmake:160 (check_c_source_compiles)"
+      - "/usr/share/cmake/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:66 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/remco/Documents/projects/cpp/moleculair_weight/build/CMakeFiles/CMakeScratch/TryCompile-9adt9A"
+      binary: "/home/remco/Documents/projects/cpp/moleculair_weight/build/CMakeFiles/CMakeScratch/TryCompile-9adt9A"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/remco/Documents/projects/cpp/moleculair_weight/build/CMakeFiles/CMakeScratch/TryCompile-9adt9A'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8acf2/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_8acf2.dir/build.make CMakeFiles/cmTC_8acf2.dir/build
+        make[1]: Entering directory '/mnt/data/Documents/projects/cpp/moleculair_weight/build/CMakeFiles/CMakeScratch/TryCompile-9adt9A'
+        Building C object CMakeFiles/cmTC_8acf2.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_8acf2.dir/src.c.o -c /home/remco/Documents/projects/cpp/moleculair_weight/build/CMakeFiles/CMakeScratch/TryCompile-9adt9A/src.c
+        Linking C executable cmTC_8acf2
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8acf2.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_8acf2.dir/src.c.o -o cmTC_8acf2
+        make[1]: Leaving directory '/mnt/data/Documents/projects/cpp/moleculair_weight/build/CMakeFiles/CMakeScratch/TryCompile-9adt9A'
+        
+      exitCode: 0
+...

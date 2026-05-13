@@ -23,3 +23,19 @@ target_include_directories(my_app PRIVATE include)
 target_link_libraries(my_app PRIVATE nlohmann_json::nlohmann_json)
 
 file(COPY ${CMAKE_SOURCE_DIR}/data DESTINATION ${CMAKE_BINARY_DIR})
+
+#Testing
+FetchContent_Declare(
+  googletest
+  GIT_REPOSITORY https://github.com/google/googletest.git
+  GIT_TAG v1.14.0
+)
+FetchContent_MakeAvailable(googletest)
+
+enable_testing()
+
+add_executable(tests tests/test_periodic_table.cpp src/periodic_table.cpp)
+target_include_directories(tests PRIVATE include)
+target_link_libraries(tests PRIVATE nlohmann_json::nlohmann_json GTest::gtest_main)
+
+add_test(NAME tests COMMAND tests)
